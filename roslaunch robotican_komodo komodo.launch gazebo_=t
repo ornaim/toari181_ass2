@@ -1,0 +1,1 @@
+roslaunch robotican_komodo komodo.launch gazebo:=true world_name:="/users/studs/bsc/2015/ornaim/catkin_ws/worlds/assg2.world" lidar:=true front_camera:=true robot_localization:=true asus_camera:=true
