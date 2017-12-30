@@ -49,6 +49,6 @@ ass2
 4 - rotate the robot until it locates a red obsticle
 
 writen by :
-			Linoy Barel			206217382
-			Or Naimark			305625014
-			Inon Ben-David		206729543
+			Linoy Barel			
+			Or Naimark			
+			Inon Ben-David		
