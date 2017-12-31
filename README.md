@@ -1,8 +1,8 @@
 # toari181_ass2
 ass2
 ## assignment running instructions:
-	⋅⋅* Robot ip = 192.168.0.100
-	⋅⋅* Computer ip = 192.168.0.101	
+	* Robot ip = 192.168.0.100
+  	* Computer ip = 192.168.0.101	
 1) run the following command in terminal .
 	1.1) ssh komodo@192.168.0.100  #when 192.168.0.100 is the robot ip
 	1.2) export ROS_IP="192.168.0.100" #define ROS_IP and check you defined it right with echo.
