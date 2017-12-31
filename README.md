@@ -4,9 +4,9 @@ ass2
 	* Robot ip = 192.168.0.100
   	* Computer ip = 192.168.0.101	
 1. run the following command in terminal .
-	a. ssh komodo@192.168.0.100  #when 192.168.0.100 is the robot ip
-	b. export ROS_IP="192.168.0.100" #define ROS_IP and check you defined it right with echo.
-	c. run the following command in the ros.
+        1. ssh komodo@192.168.0.100  #when 192.168.0.100 is the robot ip
+	2. export ROS_IP="192.168.0.100" #define ROS_IP and check you defined it right with echo.
+	3. run the following command in the ros.
 	"roslaunch robotican_komodo komodo.launch lidar:=true front_camera:=true robot_localization:=true asus_camera:=true"
 2. run the following command in terminal .
 	source /opt/ros/indigo/setup.bash
@@ -44,11 +44,11 @@ ass2
 3. after we defined the env-variables . run in terminal the following " rosrun ass2 demoSpin.py ". 
 
 4. enter a command number between 0-4:
-...0 - exit the program
-...1 - move the robot 50cm straight if there is no obsticle within 50cm of the robot
-...2 - turn the robot X degrees
-...3 - check if there is a red obsticle in front of the robot
-...4 - rotate the robot until it locates a red obsticle
+0 - exit the program
+1 - move the robot 50cm straight if there is no obsticle within 50cm of the robot
+2 - turn the robot X degrees
+3 - check if there is a red obsticle in front of the robot
+4 - rotate the robot until it locates a red obsticle
 
 writen by :
 			Linoy Barel			
